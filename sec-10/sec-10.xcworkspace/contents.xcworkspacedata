@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <FileRef
+      location = "group:sec-10-challenge/sec-10-challenge.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:CppStrings/CppStrings.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:CStyleStrings/CStyleStrings.xcodeproj">
+   </FileRef>
+</Workspace>

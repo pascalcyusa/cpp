@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <FileRef
+      location = "group:multi_dim_arrays/multi_dim_arrays.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:sect-7-challenge/sect-7-challenge.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:cpp_arrays/cpp_arrays.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:cpp_vectors/cpp_vectors.xcodeproj">
+   </FileRef>
+</Workspace>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <FileRef
+      location = "group:coat/coat.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:sec-8/sec-8.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:sec-8-challenge-alt/sec-8-challenge-alt.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:sec-8-challenge/sec-8-challenge.xcodeproj">
+   </FileRef>
+</Workspace>

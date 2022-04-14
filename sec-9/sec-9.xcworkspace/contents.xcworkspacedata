@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <FileRef
+      location = "group:sec-9-challenge/sec-9-challenge.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:histogram/histogram.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:nested-loops/nested-loops.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:do-while/do-while.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:range_based_for/range_based_for.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:for_vectors/for_vectors.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:for/for.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:while/while.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:switchEnum/switchEnum.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:switch_statement/switch_statement.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:conditional_operator/conditional_operator.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:shipping/shipping.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:grades/grades.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:nested-if/nested-if.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:if-else/if-else.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:if/if.xcodeproj">
+   </FileRef>
+</Workspace>
