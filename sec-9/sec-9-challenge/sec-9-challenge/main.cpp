@@ -14,7 +14,7 @@ int main() {
     vector<int> numbers {};
     char choice {};
     
-    cout << "\n\n\t\u08B8 Welcome to the Super C++ Program \u08B8\n\n";
+    cout << "\n\n\t\u2615 Juggle Around Program \u26F1\n\n";
         
     do {
         // Get input from the user
@@ -84,7 +84,7 @@ int main() {
         }
         
         else if (choice=='q' || choice=='Q') {                      // choice = Q
-            cout << "\n\u2665 Sorry to see you go. Bye." << endl << endl;
+            cout << "\n\u26A1\u26A1 Sorry to see you go. Bye." << endl << endl;
         }
         
         else {

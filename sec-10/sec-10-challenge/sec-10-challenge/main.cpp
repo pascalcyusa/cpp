@@ -22,8 +22,8 @@ int main() {
         ", onmlkjihgfedcbazyxwvutsrqpBZ0MPASCLVJIW19#@$%*83&^07"
     };
     
-//    cout << setw(11) << "Alphabet: " << setw(2) << alphabet.length() << endl
-//    << setw(11) << "Key: " << setw(2) << key.length() << endl;
+    cout << setw(11) << "Alphabet: " << setw(2) << alphabet.length() << endl
+    << setw(11) << "Key: " << setw(2) << key.length() << endl;
     
     string secretMessage {};
     cout << "Enter your secret message: ";
@@ -35,7 +35,7 @@ int main() {
     // Encryption
     
     for (char c: secretMessage) {
-        size_t position = alphabet.find(c);
+        size_t position {alphabet.find(c)};
         if (position != string::npos) {
             char new_char {key.at(position)};
             encryptedMessage += new_char;
@@ -44,6 +44,8 @@ int main() {
     }
     
     cout << "\nEncrypted message: " << encryptedMessage << endl << endl;
+    
+    cout << "\n=======================\n";
     
     // Decryption
     
