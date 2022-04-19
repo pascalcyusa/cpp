@@ -1,4 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Workspace
    version = "1.0">
+   <FileRef
+      location = "group:functionDefinition/functionDefinition.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:rand/rand.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:math/math.xcodeproj">
+   </FileRef>
 </Workspace>
