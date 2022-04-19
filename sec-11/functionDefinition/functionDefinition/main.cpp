@@ -7,6 +7,13 @@
 
 #include <iostream>
 
+// function prototypes
+double calc_volumeCylinder(double radius, double height);
+double calc_areaCircle(double radius);
+void areaCircle();
+void volumeCylinder();
+
+
 
 using namespace std;
 
