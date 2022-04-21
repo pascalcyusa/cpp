@@ -8,7 +8,7 @@
 #include <iostream>
 
 // function prototypes
-double calc_volumeCylinder(double radius, double height);
+double calc_volumeCylinder(double radius, double height); // you may remove the names of radius and height
 double calc_areaCircle(double radius);
 void areaCircle();
 void volumeCylinder();

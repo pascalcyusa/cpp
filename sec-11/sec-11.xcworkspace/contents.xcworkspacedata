@@ -2,6 +2,15 @@
 <Workspace
    version = "1.0">
    <FileRef
+      location = "group:functionOverloading/functionOverloading.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:defaultArguments/defaultArguments.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:functionParameters/functionParameters.xcodeproj">
+   </FileRef>
+   <FileRef
       location = "group:functionDefinition/functionDefinition.xcodeproj">
    </FileRef>
    <FileRef
