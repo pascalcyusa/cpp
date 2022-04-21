@@ -2,6 +2,9 @@
 <Workspace
    version = "1.0">
    <FileRef
+      location = "group:arrays&amp;Functions/arrays&amp;Functions.xcodeproj">
+   </FileRef>
+   <FileRef
       location = "group:functionOverloading/functionOverloading.xcodeproj">
    </FileRef>
    <FileRef
