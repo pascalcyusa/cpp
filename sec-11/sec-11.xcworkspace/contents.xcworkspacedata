@@ -2,6 +2,12 @@
 <Workspace
    version = "1.0">
    <FileRef
+      location = "group:scopeExample/scopeExample.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:passByReference/passByReference.xcodeproj">
+   </FileRef>
+   <FileRef
       location = "group:arrays&amp;Functions/arrays&amp;Functions.xcodeproj">
    </FileRef>
    <FileRef
