@@ -99,7 +99,7 @@ int main() {
         
         // Computer decides if you keep on playing or not
         if (amount == 0) {
-            cout << "\u26F0 Unfortunately, there is no money left to play.";
+            cout << "\t\u26F0 Unfortunately, there is no money left to play.";
             break;
         }
         
