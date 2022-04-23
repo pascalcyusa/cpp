@@ -7,3 +7,8 @@
 # c++20
  All the projects are compiled with c++20
  
+    - My portfolio can be found at [eureka-notez]: https://eureka-notez.netlify.app
+ 
+    🧐 For those who wish to connect
+
+ 

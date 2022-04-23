@@ -22,7 +22,7 @@ int main() {
     cout << "factorial of 5 is " << factorial(5) << endl;
     cout << "factorial of 8 is " << factorial(8) << endl;
     cout << "factorial of 10 is " << factorial(10) << endl;
-    cout << "factorial of 10 is " << factorial(20) << endl;
+    cout << "factorial of 20 is " << factorial(20) << endl;
 
     cout << endl;
     return 0;
