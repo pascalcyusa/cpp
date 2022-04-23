@@ -2,6 +2,12 @@
 <Workspace
    version = "1.0">
    <FileRef
+      location = "group:factorial/factorial.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:fibonacci/fibonacci.xcodeproj">
+   </FileRef>
+   <FileRef
       location = "group:howFunctionCallsWork/howFunctionCallsWork.xcodeproj">
    </FileRef>
    <FileRef
