@@ -23,10 +23,9 @@ void drawLine(int n, char symbol) {
 }
 
 void rules() {
-//    system("cls");
-    cout << endl << endl;
-    drawLine(100,'=');
-    cout << "\n\n\t\tRULES OF THE GAME\n\n";
+    drawLine(50,'=');
+    cout << "\t\tRULES OF THE GAME" << endl;
+    drawLine(50,'=');
     cout << "\t1. Choose any number between 1 to 10\n";
     cout << "\t2. If you win you will get 10 times of the money you bet\n";
     cout << "\t3. If you bet on a wrong number, you will lose your betting amount\n";
@@ -46,12 +45,12 @@ int main() {
     
     cout << "\n\n\t\u26FA WELCOME TO PASCAL'S CASINO \u26E9\n\n";
     drawLine(100,'=');
-    cout << "\n\nWhat's your name?\t";
+    cout << "\nWhat's your name?\t";
     getline(cin, playerName);
-    cout << "\n" << playerName << ", bet some cash: $"; cin >> amount;
+    cout << "\n" << playerName << ", put some cash to play: $"; cin >> amount;
+    cout << endl;
     
     do {
-//        system("cls");
         rules();
         cout << "\nYour current balance is $" << amount << endl;
         
@@ -60,8 +59,7 @@ int main() {
             cout << '\n' << playerName <<", enter some money to bet: $";
             cin >> bettingAmount;
             if (bettingAmount > amount)
-                cout << "\u26D4 Your betting amount is more than your current balance.\tTry again."
-                << endl;
+                cout << "\t\u26D4 Your betting amount is more than your current balance.\tTry again." << endl;
             
         } while (bettingAmount > amount);
         
@@ -73,7 +71,7 @@ int main() {
                 cout << "\n\t\u26D4 Number should be between 1 and 10."
                 << "\nTry again\n";
             else
-                cout << "\nNumber is in range.\t\u26D3 Throwing the dice ..." << endl;
+                cout << "\n\t\u26D3 Throwing the dice ..." << endl;
             
         } while (guess <= 0 || guess > 10);
         
@@ -82,35 +80,38 @@ int main() {
         dice = rand()%10 + 1;
         
         
+        // Show the results of the game
+        cout << "\nThe winning number was: " << dice << endl;
+        
+        
         // Player wins or loses
         if (dice == guess) {
-            cout << "\n\t\u26C4 Good Luck!! You won $" << bettingAmount * 10;
+            cout << "\n\t\u26C4 Good Luck!! You won $" << bettingAmount * 10 << endl << endl;
             amount += bettingAmount * 10;
         } else {
-            cout << "\n\t\u26D4 Bad Luck this time!! You lost $"<< bettingAmount << endl;
+            cout << "\n\t\u26D4 Bad Luck this time!! You lost $"<< bettingAmount << endl << endl;
             amount -= bettingAmount;
         }
         
-        
-        // Show the results of the game
-        cout << "\nThe winning number was: " << dice << endl << endl;
-        cout <<playerName << ", you have $" << amount;
+        // player's balance
+        cout << playerName << ", your remaining balance is $" << amount << endl;
         
         
         // Computer decides if you keep on playing or not
         if (amount == 0) {
-            cout << "\t\u26F0 Unfortunately, there is no money left to play.";
+            cout << "\n\t\u26F0 Unfortunately, there is no money left to play.";
             break;
         }
         
         
         // Player chooses to continue, or quit.
-        cout << "\n\n\t\u26D4 Do you want to play again (y/n)? ";
+        cout << "\n\t\u26D4 Do you want to play again (y/n)? ";
         cin >> choice;
+        cout << endl;
         
     } while (choice=='y' || choice=='Y');
     
-    cout << "\n\nThanks for playing the game. Your balance is $" << amount << endl;
+    cout << "\n\nThanks for playing with us." << endl;
     drawLine(100,'=');
     
     

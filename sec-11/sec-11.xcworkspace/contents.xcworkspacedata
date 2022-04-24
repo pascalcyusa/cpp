@@ -2,6 +2,9 @@
 <Workspace
    version = "1.0">
    <FileRef
+      location = "group:sec-11-challenge/sec-11-challenge.xcodeproj">
+   </FileRef>
+   <FileRef
       location = "group:factorial/factorial.xcodeproj">
    </FileRef>
    <FileRef
