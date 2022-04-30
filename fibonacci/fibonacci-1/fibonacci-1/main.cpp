@@ -9,7 +9,6 @@
 
 #include <iostream>
 #include <vector>
-#include <iomanip>
 
 using namespace std;
 
@@ -22,12 +21,12 @@ int main() {
     
     do {
         for (auto f: fibo) {
-            cout << setw(20) << last << '\n';
+            cout << last << '\n';
             f = last + next;
             next = last;
             last = f;
         }
-    } while (next < (fibo.size())/2);
+    } while (next <= (fibo.size()));
     
     cout << endl << endl;
     return 0;
