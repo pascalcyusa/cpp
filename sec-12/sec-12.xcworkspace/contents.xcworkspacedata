@@ -2,6 +2,15 @@
 <Workspace
    version = "1.0">
    <FileRef
+      location = "group:passingPointers3/passingPointers3.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:passingPointers2/passingPointers2.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:passingPointers/passingPointers.xcodeproj">
+   </FileRef>
+   <FileRef
       location = "group:pointerArithmetic/pointerArithmetic.xcodeproj">
    </FileRef>
    <FileRef
