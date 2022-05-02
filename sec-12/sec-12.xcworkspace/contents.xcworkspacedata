@@ -2,6 +2,9 @@
 <Workspace
    version = "1.0">
    <FileRef
+      location = "group:returnPointer/returnPointer.xcodeproj">
+   </FileRef>
+   <FileRef
       location = "group:passingPointers3/passingPointers3.xcodeproj">
    </FileRef>
    <FileRef
