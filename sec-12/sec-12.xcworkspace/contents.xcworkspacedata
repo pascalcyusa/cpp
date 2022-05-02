@@ -2,6 +2,12 @@
 <Workspace
    version = "1.0">
    <FileRef
+      location = "group:debugger/debugger.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:references/references.xcodeproj">
+   </FileRef>
+   <FileRef
       location = "group:returnPointer/returnPointer.xcodeproj">
    </FileRef>
    <FileRef

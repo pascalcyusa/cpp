@@ -12,7 +12,7 @@ using namespace std;
 int main() {
     cout << "\n\n\t\u26FA WELCOME TO FIZZBUZZ \u26E9\n\n";
 
-    for (int i {1}; i<=100; ++i) {
+    for (int i{1}; i<=100; ++i) {
         if (i%15 == 0)
             cout << "FizzBuzz ";
         if (i%3 == 0)
@@ -22,8 +22,7 @@ int main() {
         else
             cout << i << " ";
     }
-    cout << endl << endl;
     
-    
+    cout << endl;
     return 0;
 }
