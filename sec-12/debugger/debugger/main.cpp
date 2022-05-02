@@ -28,6 +28,11 @@ int main() {
     cout << "x: " << x << endl;
     cout << "y: " << y << endl;
     
+    swap(&x, &y);
+    
+    cout << "\n------------------" << endl;
+    cout << "x: " << x << endl;
+    cout << "y: " << y << endl;
     
     cout << endl;
     return 0;
