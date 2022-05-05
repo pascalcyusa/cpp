@@ -2,6 +2,9 @@
 <Workspace
    version = "1.0">
    <FileRef
+      location = "group:sec-12-challenge/sec-12-challenge.xcodeproj">
+   </FileRef>
+   <FileRef
       location = "group:debugger/debugger.xcodeproj">
    </FileRef>
    <FileRef
