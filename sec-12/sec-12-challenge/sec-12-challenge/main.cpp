@@ -36,10 +36,10 @@ void print(const int *const arr, size_t size) {
 
 int main() {
     const size_t array1_size {5};
-    const size_t array2_size {3};
+    const size_t array2_size {5};
     
-    int array1[] {1,2,3,4,5};
-    int array2[] {10,20,30};
+    int array1[] {11,92,3,74,5};
+    int array2[] {13,20,30,33,25};
     
     cout << "Array 1: ";
     print (array1, array1_size);
