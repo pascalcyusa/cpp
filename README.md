@@ -7,7 +7,7 @@
 <p align="center">This is where my journey with c++ begins.</p>
 
 <p align=center>
-<a href="https://eureka-notez.netlify.app">Website</a> ·
+<a href="https://eureka-notez.netlify.app">Website</a>
 </p>
 
 ---
