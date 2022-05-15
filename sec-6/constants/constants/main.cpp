@@ -20,13 +20,13 @@ int main() {
     int n,total_room;
     float tax,total;
     
-    cout << "\n\n\t--------- \u03D4 FRANK'S CARPET CLEANING SERVICE \u03D4 ---------\n\n";
-    cout << "\u131A3 At Frank's, our prices are at an affordable price \u131A3\n"
+    cout << "\n\n\t--------- 🏬 FRANK'S CARPET CLEANING SERVICE 🧹 ---------\n\n";
+    cout << "🦷 At Frank's, our prices are at an affordable price 💰\n"
     << "We charge $30 a room, without tax!\n\n";
     
     // Calculate user's price
         
-    cout << "\u130D6 How many rooms do you want cleaned? ";
+    cout << "🦷 How many rooms do you want cleaned? ";
     cin >> n;
     
     // Formulas
@@ -37,7 +37,7 @@ int main() {
     
     // Print the details
     
-    cout << "\n\t\u03E1 The cost for cleaning " << n << " rooms, is $" << total_room
+    cout << "\n\t 🦷 The cost for cleaning " << n << " rooms, is $" << total_room
     << " plus a $" << tax << " tax," << " which makes $"   << total << " in total" << endl;
     
     cout <<"\n---------- This estimate is valid for " << EXPIRY << " days ----------" << endl;
