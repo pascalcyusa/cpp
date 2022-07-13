@@ -7,7 +7,7 @@
 <p align="center">This is where my journey with c++ begins.</p>
 
 <p align=center>
-[Webiste](https://eureka-notez.netlify.app)
+<a href="https://eureka-notez.netlify.app">Website</a>
 </p>
 
 ---
@@ -21,3 +21,7 @@
 All the projects are compiled with [c++20](https://en.cppreference.com/w/cpp/20)
 
         # g++ -W -std=c++20 main.cpp -o main
+
+
+
+
