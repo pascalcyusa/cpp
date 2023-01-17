@@ -22,51 +22,53 @@ int main() {
     vector1.push_back(10);
     vector1.push_back(20);
     
-    cout << "\n\tElements of vector1\n\n"
+    cout << "\n\tElements of Vector 1: "
     << vector1.at(0) << ", " << vector1.at(1);
     
-    cout << "\nvector1 contains " << vector1.size() << " elements\n\n";
+    cout << "\nVector 1 contains " << vector1.size() << " elements\n";
     
     // Vector 2
 
     vector2.push_back(100);
     vector2.push_back(200);
     
-    cout << "\n\tElements of vector2\n\n"
+    cout << "\n\tElements of Vector 2: "
     << vector2.at(0) << ", " << vector2.at(1);
     
-    cout << "\nvector2 contains " << vector2.size() << " elements\n\n";
+    cout << "\nVector 2 contains " << vector2.size() << " elements\n";
 
     // 2D Vector
         
     vector_2d.push_back(vector1);
     vector_2d.push_back(vector2);
     
-    cout << "\tElements of vector_2d\n"
-    << vector_2d.at(0).at(0) << "," << vector_2d.at(0).at(1) <<'\n'
-    << vector_2d.at(1).at(0) << "," << vector_2d.at(1).at(1);
+    cout << "\n\tElements of Vector 2d: "
+    << vector_2d.at(0).at(0) << ", " << vector_2d.at(0).at(1) << " and "
+    << vector_2d.at(1).at(0) << ", " << vector_2d.at(1).at(1);
     
-    cout << endl << endl;
+    cout << endl << "\n\t\t=======================\n";
     
     // change vector1.at(0) to 1000
     
     vector1.at(0) = 1000;
-    cout << "Changed vector1.at(0) to 1000\n";
+    cout << "\nChanged first element of Vector 1 from 10 to 1000\n";
     
     //Display elements of vector_2d
     
-    cout << "\tElements of vector_2d\n"
-    << vector_2d.at(0).at(0) << ", " << vector_2d.at(0).at(1) <<'\n'
+    cout << "\n\tElements of Vector 2d: "
+    << vector_2d.at(0).at(0) << ", " << vector_2d.at(0).at(1) << " and "
     << vector_2d.at(1).at(0) << ", " << vector_2d.at(1).at(1);
-    
-    cout << endl << endl;
     
     // Display elements of vector1
     
-    cout << "\n\tElements of vector1\n\n"
+    cout << "\n\n\tElements of Vector 1: "
     << vector1.at(0) << ", " << vector1.at(1);
     
-    cout << "\nvector1 contains " << vector1.size() << " elements\n\n";
+    cout << "\nVector 1 contains " << vector1.size() << " elements";
+    
+    cout << endl << endl;
+    
+    return  0;
 
 }
 

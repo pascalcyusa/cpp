@@ -21,7 +21,7 @@ int main() {
     float tax,total;
     
     cout << "\n\n\t--------- 🏬 FRANK'S CARPET CLEANING SERVICE 🧹 ---------\n\n";
-    cout << "🦷 At Frank's, our prices are at an affordable price 💰\n"
+    cout << "🦷 At Frank's, our services are affordable 💰\n"
     << "We charge $30 a room, without tax!\n\n";
     
     // Calculate user's price

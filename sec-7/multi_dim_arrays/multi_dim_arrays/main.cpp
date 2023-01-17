@@ -24,7 +24,7 @@ int main() {
     
     // Ratings for User 1
     
-    cout << "User 1: The movie ratings for: Godzilla, Titanic, Spiderman, Harry Potter, and Transformers: \n";
+    cout << "User 1: The movie ratings for: Godzilla, Titanic, Spiderman, Harry Potter, and Transformers: ";
     
     cin >> movie_rating [0][0];
     cin >> movie_rating [0][1];
@@ -40,7 +40,7 @@ int main() {
     
     // Ratings for User 2
     
-    cout << "User 2: The movie ratings for: Godzilla, Titanic, Spiderman, Harry Potter, and Transformers: \n";
+    cout << "User 2: The movie ratings for: Godzilla, Titanic, Spiderman, Harry Potter, and Transformers: ";
 
     cin >> movie_rating [1][0];
     cin >> movie_rating [1][1];
@@ -56,7 +56,7 @@ int main() {
     
     // Ratings for User 3
     
-    cout << "User 3: The movie ratings for: Godzilla, Titanic, Spiderman, Harry Potter, and Transformers: \n";
+    cout << "User 3: The movie ratings for: Godzilla, Titanic, Spiderman, Harry Potter, and Transformers: ";
 
     cin >> movie_rating [2][0];
     cin >> movie_rating [2][1];

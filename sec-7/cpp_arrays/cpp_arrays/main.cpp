@@ -28,11 +28,11 @@ int main() {
     
     cout << "\n\n\t===== TEMPERATURES =====\n\n";
     
-    cout << "\nThe first highest temperature is " << hi_temp[0] <<endl;
-    cout << "\nThe second highest temperature is " << hi_temp[1] <<endl;
-    cout << "\nThe third highest temperature is " << hi_temp[2] <<endl;
-    cout << "\nThe fourth highest temperature is " << hi_temp[3] <<endl;
-    cout << "\nThe fifth highest temperature is " << hi_temp[4] <<endl;
+    cout << "\nThe first highest temperature is " << hi_temp[0] << endl;
+    cout << "\nThe second highest temperature is " << hi_temp[1] << endl;
+    cout << "\nThe third highest temperature is " << hi_temp[2] << endl;
+    cout << "\nThe fourth highest temperature is " << hi_temp[3] << endl;
+    cout << "\nThe fifth highest temperature is " << hi_temp[4] << endl;
     
     //Test scores
     
@@ -48,11 +48,11 @@ int main() {
     cin >> test_scores[3];
     cin >> test_scores[4];
     
-    cout << "\nThe first test score is " << test_scores[0] <<endl;
-    cout << "\nThe second test score  is " << test_scores[1] <<endl;
-    cout << "\nThe third test score  is " << test_scores[2] <<endl;
-    cout << "\nThe fourth test score  is " << test_scores[3] <<endl;
-    cout << "\nThe fifth test score  is " << test_scores[4] <<endl;
+    cout << "\nThe first test score is " << test_scores[0] << endl;
+    cout << "\nThe second test score  is " << test_scores[1] << endl;
+    cout << "\nThe third test score  is " << test_scores[2] << endl;
+    cout << "\nThe fourth test score  is " << test_scores[3] << endl;
+    cout << "\nThe fifth test score  is " << test_scores[4] << endl;
     
     cout << "\n***** The name of the array is " << test_scores << " *****\n\n";
 }
