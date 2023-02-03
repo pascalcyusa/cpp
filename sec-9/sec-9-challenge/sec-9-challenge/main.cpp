@@ -25,7 +25,7 @@ int main() {
         << "\tS - Display the smallest number\n"
         << "\tL - Display the largest number\n"
         << "\tQ - Quit\n"
-        << "Choose one of the options above to continue\t\t"; cin >> choice;
+        << "\nChoose one of the options above to continue\t\t"; cin >> choice;
         
         // Perform actions
         
