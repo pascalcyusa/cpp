@@ -26,7 +26,7 @@ int main() {
     for (auto temp : temps)
         total += temp;
     
-    if (temps.size()!=0)
+    if (temps.size() != 0)
         average_temp = total/temps.size();
     
     cout << fixed << setprecision(3);
