@@ -17,12 +17,13 @@ enum direction {
 
 int main() {
     
-    direction choice {};
-    
+    direction c {};
+    char choice;
     cout << "Which way would you like to navigate? ";
     cin >> choice;
+    c = static_cast<direction>(choice);
     
-    switch (choice) {
+    switch (c) {
         case n:
             cout << "Go North\n";
             break;
